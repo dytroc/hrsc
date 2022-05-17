@@ -4,8 +4,7 @@
   "package": "io.github.dytroInc.hrsc.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
-    "ChatMixin",
-    "ConnectionMixin"
+    "ChatMixin"
   ],
   "injectors": {
     "defaultRequire": 1
