@@ -1,9 +1,10 @@
-# Fabric Example Mod
+# HRSC (Hide Roin Survival Chat)
 
-## Setup
+로인 서바이벌의 전체 채팅을 숨기는 모드입니다.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## 확인하지 못한 문제들
+- 1000시간 이상인 유저 분들의 채팅이 숨겨지는지 체크 못했습니다.
+- 관리자들의 채팅이 숨겨지는지 체크 못했습니다.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## 버그로 오해할 수 있는 의도된 기능들
+- 귓속말은 허용입니다.

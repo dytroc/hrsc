@@ -1,35 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "hrsc",
+  "version": "1.0.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "HRSC",
+  "description": "로인 서바이벌 전체 채팅을 숨기는 모드",
   "authors": [
-    "Me!"
+    "Dytro"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/dytroInc/hrsc",
+    "sources": "https://github.com/dytroInc/hrsc"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/hrsc/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      {
+        "value": "io.github.dytroInc.hrsc.HRSCMod"
+      }
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hrsc.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": ">=1.18",
     "java": ">=17"
   },
   "suggests": {
