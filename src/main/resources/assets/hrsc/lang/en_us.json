@@ -1,4 +1,10 @@
 {
-  "category.hrsc.chat": "HRSC",
-  "key.hrsc.togglechat": "Toggle Roin Survival Chat"
+  "category.hrsc.keys": "HRSC",
+  "key.hrsc.chat": "Open Roin Survival Chat Settings",
+  "key.hrsc.menu": "Open Roin Survival Menu",
+  "key.hrsc.shop": "Open Roin Survival Shop",
+
+  "filter.block_all.name": "Block All",
+  "filter.block_non_admins.name": "Block Non-Admins",
+  "filter.block_nothing.name": "Block Nothing"
 }

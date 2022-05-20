@@ -1,4 +1,10 @@
 {
-  "category.hrsc.chat": "HRSC",
-  "key.hrsc.togglechat": "로인 서바이벌 전체 채팅 토글"
+  "category.hrsc.keys": "HRSC",
+  "key.hrsc.chat": "로인 서바이벌 전체 채팅 토글",
+  "key.hrsc.menu": "로인 서바이벌 메뉴 열기",
+  "key.hrsc.shop": "로인 서바이벌 상점 메뉴 열기",
+
+  "filter.block_all.name": "모두 차단",
+  "filter.block_non_admins.name": "비관리자 차단",
+  "filter.block_nothing.name": "차단 비활성화"
 }

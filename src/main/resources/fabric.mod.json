@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "hrsc",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "name": "HRSC",
-  "description": "로인 서바이벌 전체 채팅을 숨기는 모드",
+  "description": "로인 서바이벌이라는 로인온라인의 게임의 게임플레이를 도우는 모드입니다.",
   "authors": [
     "Dytro"
   ],
