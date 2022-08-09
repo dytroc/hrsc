@@ -23,7 +23,7 @@ public class VersionUtils {
         try {
             StringBuilder content = new StringBuilder();
             BufferedReader reader = new BufferedReader(
-                    new InputStreamReader(new URL("https://api.github.com/repos/dytroInc/hrsc/releases/latest").openStream(), StandardCharsets.UTF_8)
+                    new InputStreamReader(new URL("https://api.github.com/repos/dytroc/hrsc/releases/latest").openStream(), StandardCharsets.UTF_8)
             );
 
             String line;
@@ -43,6 +43,6 @@ public class VersionUtils {
     public static void showUpdateMessage(ClientPlayerEntity player) {
         player.sendMessage(new LiteralText(
                 "이 모드는 최신 버전이 아닙니다. 현재 당신이 사용하는 모드의 버전은 " + HRSCMod.getModVersion() + "이므로 " + latestVersion + "로 업데이트해주세요."
-        ).setStyle(Style.EMPTY.withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/dytroInc/hrsc/releases")).withColor(Formatting.AQUA)), false);
+        ).setStyle(Style.EMPTY.withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "https://github.com/dytroc/hrsc/releases")).withColor(Formatting.AQUA)), false);
     }
 }
